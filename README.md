@@ -1,14 +1,24 @@
-# infinity- – Deriv Volatility Signal Bot
+# Infinity Dash – Deriv Volatility Signal Bot
 
-Monitors Deriv Volatility Indices and sends signals to Telegram based on:
-1. Bollinger Band breakout
-2. RSI (74/26) confirmation
-3. Stochastic Oscillator (92.5/7.5) crossover
+Monitors Deriv Volatility Indices and sends **Buy/Sell** signals to your Telegram using:
 
-## ⚙️ Setup
+- ✅ Bollinger Band breakout
+- ✅ RSI confirmation (crosses 74 or 26)
+- ✅ Stochastic Oscillator crossover (92.5/7.5)
 
-1. **Clone to GitHub or upload to Render.com**
-2. **Set environment variables:**
-   - `TELEGRAM_TOKEN` = 8015314103:AAHrRVSHzeK-f3M3qPAr-EKX9shQDqnQ0Gc
-   - `TELEGRAM_CHAT_ID` = 5567741626
-3. **Start command (Render):**
+---
+
+## ⚙️ Setup Instructions
+
+### 1️⃣ Clone or upload to your preferred environment:
+- GitHub
+- Render.com
+- Replit
+
+---
+
+### 2️⃣ Create a `.env` file (for Telegram alerts):
+
+```env
+TELEGRAM_TOKEN=8015314103:AAHrRVSHzeK-f3M3qPAr-EKX9shQDqnQ0Gc
+TELEGRAM_CHAT_ID=5567741626
