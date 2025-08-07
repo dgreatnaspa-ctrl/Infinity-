@@ -27,7 +27,6 @@ def send_telegram_message(message):
         logging.error(f"Telegram send error: {e}")
 
 def fetch_candles(symbol, count=100):
-    url = "https://api.deriv.com/api/websockets/v3"
     response = requests.get(
         f"https://api.deriv.com/api/exchange/v1/price?index={symbol}&interval=5m&count={count}"
     )
