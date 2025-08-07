@@ -9,6 +9,6 @@ Monitors Deriv Volatility Indices and sends signals to Telegram based on:
 
 1. **Clone to GitHub or upload to Render.com**
 2. **Set environment variables:**
-   - `TELEGRAM_TOKEN` = Your Telegram bot token
-   - `TELEGRAM_CHAT_ID` = Your Telegram chat ID
+   - `TELEGRAM_TOKEN` = 7702519928:AAGf9BRgA18JTOroQDR8ZlzbplKO2Jlp5fs
+   - `TELEGRAM_CHAT_ID` = 5567741626
 3. **Start command (Render):**
